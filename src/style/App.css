@@ -1,0 +1,123 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
+  margin: 0
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 470px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition-duration: 0.4s;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #007BFF;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  height: 35px;
+  width: 100%;
+  max-width: 140px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+div {
+  text-align: center;
+}
+
+#weatherTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#weatherTable td,
+#weatherTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#weatherTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+  transition-duration: 0.4s;
+}
+
+#weatherTable tr:hover {
+  background-color: #ddd;
+  transition-duration: 0.4s;
+}
+
+#weatherTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #00794d;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.weatherName {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.first-form{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
