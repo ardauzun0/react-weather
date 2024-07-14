@@ -41,5 +41,4 @@ To run this project, you need to get an API key from [OpenWeatherMap](https://op
    ```
 
 ## Screenshot
-
-![Ekran Resmi 2024-07-14 17 16 18](https://github.com/user-attachments/assets/7291c4cb-1e59-4571-b998-f677c8268277)
+![Ekran Resmi 2024-07-14 17 16 18](https://github.com/user-attachments/assets/02f0a897-4a92-45bf-97ae-b7874f362bff)
